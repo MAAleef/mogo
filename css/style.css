@@ -4,8 +4,6 @@ Table
 2. heading css
 3. menu css
 4. banner css
-
-
 */
 
 
@@ -518,10 +516,66 @@ a {
 
 /*service end*/
 
+.message-bg{
+    background: #f8f8f8;
+    padding-bottom: 50px;
+}
+.message-bg .message .message-image{
+    width: 310px;
+    float: left;
+}
+.message-bg .message .message-image i{
+    float: left;
+    font-size: 30px;
+    padding-top: 85px;
+    color: var(--PC);
+}
+.message-bg .message .message-image img{
+    width: 210px;
+    margin-left: 50px;
+}
+.message-bg .message .message-text{
+    width: 890px;
+    float: left;
+}
+.message-bg .message .message-text i{
+    float: right;
+    font-size: 30px;
+    margin-top: -55px;
+    color: var(--PC);
+}
+.message-bg .message .message-text p{
+    font-family: var(--paragraphFont);
+    font-weight: 300;
+    font-style: italic;
+    color: var(--PC);
+    font-size: 24px;
+    margin-left: 30px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.message-bg .message .message-text h4{
+    font-family: var(--subheadingFont);
+    font-weight: 400;
+    color: var(--BC);
+    font-size: 24px;
+    position: relative;
+    padding-left: 90px;
+}
+.message-bg .message .message-text h4::before{
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+}
+
+/* message css ends */
 
 .team-bg {
-	background: lightyellow;
-	margin-bottom: 150px;
+    margin-bottom: 150px;
 }
 
 .team-bg .team .team-members {
@@ -635,14 +689,130 @@ a {
 	vertical-align: middle;
 	transition: all linear 0.4s;
 
-
 }
 
 .brandlogo-bg .brandlogo .brand-item ul li img:hover {
 	transform: scale(1.1)
 }
 
-
-
-
 /*brand logo end*/
+
+/*Gallary start*/
+
+.gallary-bg{
+    padding-bottom: 50px;
+}
+.gallary-bg .gallary .heading p{
+    margin-bottom: 50px;
+}
+.gallary-bg .contain-gallary{
+    width: 25%;
+    float: left;
+}
+.gallary-bg .contain-gallary img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.gallary-bg .contain-gallary .gallary{
+    position: relative;
+}
+.gallary-bg .contain-gallary .gallary .gallary-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding-top: 25%;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s
+}
+.gallary-bg .contain-gallary .gallary:hover .gallary-overlay{
+    opacity: 1;
+}
+.gallary-bg .contain-gallary .gallary .gallary-overlay i{
+    color: #fff;
+    font-size: 25px;
+}
+.gallary-bg .contain-gallary .gallary .gallary-overlay h6{
+    font-family: var(--headingFont);
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff; 
+    margin-top: 20px;
+}
+.gallary-bg .contain-gallary .gallary .gallary-overlay p{
+    font-family: var(--paragraphFont);
+    font-weight: 300;
+    font-style: italic;
+    color: var(--PC);
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/*gallary end*/
+
+/*message2 start*/
+
+.message2-bg{
+    background: #f8f8f8;
+    padding-bottom: 50px;
+}
+.message2-bg .message2 .message2-image{
+    width: 310px;
+    float: left;
+}
+.message2-bg .message2 .message2-image i{
+    float: left;
+    font-size: 30px;
+    padding-top: 85px;
+    color: var(--PC);
+}
+.message2-bg .message2 .message2-image img{
+    width: 210px;
+    margin-left: 50px;
+}
+.message2-bg .message2 .message2-text{
+    width: 890px;
+    float: left;
+}
+.message2-bg .message2 .message2-text i{
+    float: right;
+    font-size: 30px;
+    margin-top: -55px;
+    color: var(--PC);
+}
+.message2-bg .message2 .message2-text p{
+    font-family: var(--paragraphFont);
+    font-weight: 300;
+    font-style: italic;
+    color: var(--PC);
+    font-size: 24px;
+    margin-left: 30px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.message2-bg .message2 .message2-text h4{
+    font-family: var(--subheadingFont);
+    font-weight: 400;
+    color: var(--BC);
+    font-size: 24px;
+    position: relative;
+    padding-left: 90px;
+}
+.message2-bg .message2 .message2-text h4::before{
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+}
+
+/*message2 end*/
