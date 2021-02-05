@@ -966,6 +966,9 @@ a {
 
 .blog-bg .blog .blog-area .blog-box .blog-img img {
 	width: 100%;
+border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
 }
 
 .blog-bg .blog .blog-area .blog-box .blog-img .content {
@@ -976,6 +979,21 @@ a {
 	width: 60px;
 	height: 70px;
 	text-align: center;
+  animation-name: example;
+  animation-duration: 7s;
+  animation-delay: -1s;
+}
+
+@keyframes example {
+  0%   {left:0px; top:50px;}
+  25%  {left:100px; top:50px;}
+  50%  {left:100px; top:100px;}
+  75%  {left:0px; top:100px;}
+  100% {left:0px; top:0px;}
+}
+
+.blog-bg .blog .blog-area .blog-box .blog-img .content:hover{
+	
 }
 
 .blog-bg .blog .blog-area .blog-box .blog-img .content h3 {
