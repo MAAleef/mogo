@@ -943,3 +943,326 @@ a {
 }
 
 /*Client END*/
+
+/*Blog Start*/
+
+
+.blog-bg {
+	padding: 110px 0px;
+}
+
+.blog-bg .blog .blog-area {
+	padding-top: 20px;
+}
+
+.blog-bg .blog .blog-area .blog-box {
+	width: 380px;
+	float: left;
+}
+
+.blog-bg .blog .blog-area .blog-box .blog-img {
+	position: relative;
+}
+
+.blog-bg .blog .blog-area .blog-box .blog-img img {
+	width: 100%;
+}
+
+.blog-bg .blog .blog-area .blog-box .blog-img .content {
+	position: absolute;
+	left: -10px;
+	bottom: 10px;
+	background: #95e1d3;
+	width: 60px;
+	height: 70px;
+	text-align: center;
+}
+
+.blog-bg .blog .blog-area .blog-box .blog-img .content h3 {
+	color: var(--WC);
+	font-family: var(--headingFont);
+	font-weight: 700;
+	font-size: 30px;
+	margin: 0px;
+	margin-top: 10px;
+
+}
+
+.blog-bg .blog .blog-area .blog-box .blog-img .content h5 {
+	color: var(--WC);
+	font-family: var(--headingFont);
+	font-weight: 300;
+	font-style: italic;
+	font-size: 15px;
+
+}
+
+.blog-bg .blog .blog-area .blog-box h3 {
+	font-family: var(--headingFont);
+	font-weight: 700;
+	font-size: 14px;
+	color: var(--BC);
+	text-transform: uppercase;
+	margin: 18px 0px;
+
+}
+
+.blog-bg .blog .blog-area .blog-box p {
+	font-family: var(--paragraphFont);
+	font-weight: 400;
+	font-size: 14px;
+	color: var(--PC);
+	padding-bottom: 20px;
+	border-bottom: 1px solid #999999;
+}
+
+.blog-bg .blog .blog-area .blog-box span {
+	display: inline-block;
+	margin-top: 20px;
+	font-family: var(--roboto);
+	font-weight: 300;
+	font-style: italic;
+	font-size: 15px;
+	color: var(--PC);
+	margin-right: 20px;
+}
+
+.blog-bg .blog .blog-area .blog-box span i {
+	color: #95e1d3;
+	margin-right: 6px;
+}
+
+/*Blog End*/
+
+/*Map start*/
+
+.map_bg {
+	background: url(../images/map.jpg) no-repeat center / cover;
+	padding-top: 58px;
+	position: relative;
+	margin-bottom: 70px;
+
+}
+
+.map_bg .map {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.map_bg .map i {
+	color: var(--primaryColor);
+	font-size: 24px;
+	padding-bottom: 8px;
+}
+
+.map_bg .map h3 {
+	font-family: var(--headingFont);
+	font-weight: 700;
+	font-size: 30px;
+	color: var(--primaryColor);
+	text-transform: uppercase;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.map_bg .map h3::after {
+	content: '';
+	width: 60px;
+	height: 3px;
+	position: absolute;
+	background: #f38181;
+	left: 50%;
+	bottom: 33px;
+	transform: translateX(-50%);
+}
+
+/*Map end*/
+
+/*footer start*/
+
+.social_bg {
+	margin-bottom: 70px;
+}
+
+.social_bg .social .social_content .social_logo {
+	width: 480px;
+	float: left;
+	position: relative;
+}
+
+.social_bg .social .social_content .social_logo img {
+	width: 135px;
+}
+
+.social_bg .social .social_content .social_logo p {
+	font-weight: 400;
+	color: var(--PC);
+	font-family: var(--paragraphFont);
+	font-size: 14px;
+	padding-top: 43px;
+	padding-bottom: 50px;
+	line-height: 18px;
+}
+
+.social_bg .social .social_content .social_logo h4 {
+	font-size: 14px;
+	font-family: var(--headingFont);
+	font-weight: 700;
+	color: var(--BC);
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 15px;
+}
+
+.social_bg .social .social_content .social_logo ul {
+	padding-bottom: 40px;
+	padding-top: 19px;
+}
+
+.social_bg .social .social_content .social_logo ul li {
+	float: left;
+	padding-left: 15px;
+}
+
+.social_bg .social .social_content .social_logo ul li a {
+	font-family: var(--headingFont);
+	font-weight: 300;
+	font-style: italic;
+	color: #95e1d3;
+	font-size: 15px;
+	padding-right: 11px;
+	padding-left: 0;
+}
+
+.social_bg .social .social_content .social_logo ul li .active {
+	color: var(--BC);
+}
+
+.social_bg .social .social_content .social_logo .email .added {
+	width: 380px;
+	padding: 14px;
+	font-family: var(--paragraphFont);
+	font-weight: 300;
+	font-style: italic;
+	color: var(--PC);
+	position: absolute;
+	top: 100%;
+	left: 0;
+	font-size: 15px;
+	text-transform: capitalize;
+}
+
+.social_bg .social .social_content .social_logo .email {
+	position: relative;
+}
+
+.social_bg .social .social_content .social_logo .email .subscribe {
+	width: 150px;
+	background: #95e1d3;
+	padding: 13px 25px;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--WC);
+	font-size: 20px;
+	font-family: var(--paragraphFont);
+	font-weight: 700;
+	position: absolute;
+	top: 0;
+	right: 14%;
+}
+
+.social_bg .social .social_content .blog_item {
+	width: 370px;
+	float: left;
+}
+
+.social_bg .social .social_content .blog_item h5 {
+	font-size: 14px;
+	font-family: var(--headingFont);
+	font-weight: 700;
+	color: var(--BC);
+	text-transform: uppercase;
+}
+
+.social_bg .social .social_content .blog_item ul li {
+	padding-top: 40px;
+	position: relative;
+}
+
+.social_bg .social .social_content .blog_item ul li img {
+	width: 120px;
+	position: absolute;
+}
+
+.social_bg .social .social_content .blog_item ul li p {
+	font-size: 12px;
+	font-family: var(--paragraphFont);
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 18px;
+	margin-top: 15px;
+	color: var(--BC);
+	padding-left: 140px;
+}
+
+.social_bg .social .social_content .blog_item ul li span {
+	font-family: var(--paragraphFont);
+	font-weight: 300;
+	font-style: italic;
+	color: var(--PC);
+	font-size: 15px;
+	padding-left: 140px;
+}
+
+.social_bg .social .social_content .insta_gallery h4 {
+	font-size: 14px;
+	font-family: var(--headingFont);
+	font-weight: 700;
+	color: var(--BC);
+	text-transform: uppercase;
+}
+
+.social_bg .social .social_content .insta_gallery ul {
+	padding-top: 40px;
+}
+
+.social_bg .social .social_content .insta_gallery ul li{
+	float: left;
+	padding-left: 3px;
+	display: block;
+transition: all linear .4s;
+}
+
+.social_bg .social .social_content .insta_gallery ul li:hover {
+	transform: translate(3px, 3px);
+}
+
+
+.social_bg .social .social_content .insta_gallery p {
+	display: inline-block;
+	font-size: 13px;
+	font-family: var(--paragraphFont);
+	font-weight: 300;
+	color: var(--BC);
+	padding-top: 13px;
+	font-style: italic;
+}
+
+.footer_bg {
+	text-align: center;
+	border-top: 1px solid #e2e2e2;
+}
+
+.footer_bg .footer p {
+	font-family: var(--headingFont);
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: capitalize;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+.footer_bg .footer a {
+	color: var(--primaryColor);
+}
+
+/*footer End*/
